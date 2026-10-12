@@ -79,7 +79,7 @@ You'll run `01_morning_briefing.ipynb` to see the customer-session data + watch 
 
 **Assignment →** [`notebooks/assignment.ipynb`](./notebooks/assignment.ipynb)
 
-Apply the MLP toolkit to a new tabular domain (loan-default prediction).
+Apply the PyTorch toolkit to two new domains — pick one track: 🟢 loan-default classification (Foundational) or 🔵 housing-price regression (Advanced).
 
 **Further reading →** [**reference.md**](./reference.md)
 
@@ -110,6 +110,7 @@ setup.md                               ← One-time environment setup
 pre-class.md                           ← Phase 1: ~30-min self-study
 lesson.md                              ← Short reference: overview, takeaways, training-run checklist, review Q&A, course map
 reference.md                           ← Phase 3: Further reading + glossary
+mcq.md                                 ← 10 multiple-choice self-check questions + answer key
 environment.yml                        ← Conda environment spec
 docs/
   index.html                           ← Interactive key-concepts page — explore during pre-class (GitHub Pages)
@@ -120,6 +121,6 @@ notebooks/
   02_perceptron_to_mlp.ipynb           ← Part 1: Perceptron → MLP
   03_gradient_descent.ipynb            ← Part 2: GD + PyTorch basics
   04_pytorch_training_loop.ipynb       ← Part 3: Full PyTorch loop + comparison
-  assignment.ipynb                     ← After class: loan-default prediction
+  assignment.ipynb                     ← After class: loan default (classification) · housing (regression)
   optional_extensions.ipynb            ← 🟡 NumPy from scratch · weight init · Adam variants · dropout · batch norm
 ```
