@@ -7,7 +7,7 @@ This is the simplest version of "show up prepared": watch a short intro, run one
 | Step | Time | What you do |
 |---|---|---|
 | **0. Watch** | ~5 min  | Watch the [lesson intro video](https://youtu.be/Xrhz4N-crO8) |
-| **1. Try it** | ~20 min | Open and run `notebooks/01_monday_morning.ipynb` |
+| **1. Try it** | ~20 min | Open and run `notebooks/01_morning_briefing.ipynb` |
 | **2. Reflect** | ~5 min  | Three short questions below |
 
 ---
@@ -26,7 +26,7 @@ A short orientation to the day: why L07 is the bridge from classical ML to deep 
 
 Open **`notebooks/01_morning_briefing.ipynb`** in VS Code with the `dsai-m3` kernel. Run every cell top to bottom. Read the markdown between cells. Don't skip any cell.
 
-Marcus's next ask: predict checkout completion from a customer's session behaviour. Sarah builds her first MLP in PyTorch. The notebook walks through tabular session data, baselines (LR, GB), and a small PyTorch network — and discovers all four models land within 0.015 AUC. Neural nets aren't magic; the lesson is the PyTorch training loop you'll reuse in L08-L10.
+Marcus's next ask: predict checkout completion from a customer's session behaviour. In class Sarah builds her first MLP in PyTorch. This pre-class notebook explores the tabular session data and trains the logistic-regression baseline (AUC ~0.76) — the bar the in-class models (sklearn MLP, PyTorch MLP, gradient boosting) will try to beat. Spoiler: in class all four land within 0.015 AUC. Neural nets aren't magic; the lesson is the PyTorch training loop you'll reuse in L08-L10.
 
 If this is your first time running a notebook in this repo, see [setup.md](./setup.md) once — you only need to do this for the first lesson.
 
