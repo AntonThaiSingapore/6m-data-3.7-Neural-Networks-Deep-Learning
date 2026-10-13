@@ -14,6 +14,7 @@
 
 ### Books / online
 
+- **Understanding Deep Learning** by Simon J.D. Prince https://udlbook.github.io/udlbook/
 - **Deep Learning with PyTorch** by Eli Stevens et al. — free first chapter; excellent reference.
 - **Neural Networks and Deep Learning** by Michael Nielsen — free online book, beautifully explained.
 - **Dive into Deep Learning** (d2l.ai) — free interactive textbook covering everything from MLPs to transformers.
